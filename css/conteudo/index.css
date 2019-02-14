@@ -1,0 +1,158 @@
+.cabecalho {
+    text-align: left;
+    background-color: #DC143C;
+    color: #FFFF00	;
+    padding: 2rem;
+    height: 110px;
+    border-bottom: .5rem solid #000;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+body{
+  background-color: #B0C4DE;
+  margin: 0;
+}
+.pokebola-imagem{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.cabecalho-conteudo{
+  width: 80%px;
+  float: left;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.cabecalho-geracao{
+  clear: left;
+}
+
+.text-gen{
+  position: relative;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  color: #000;
+  padding-top: 16px;
+}
+
+#buscaPokemon{
+  width: 90px;
+  height: 90px;
+  float:right;
+  margin-right: 5%;
+
+}
+
+#side-left{
+  position: relative;
+  border-width:2px;
+  width: 20%;
+  height: 100%;
+  float: left;
+
+}
+
+#meio{
+  border-width:2px;
+  width: 60%;
+  height: 100%;
+  left: 0px;
+  background-color: #808080;
+  float: left;
+  margin: 0;
+  border-left: 10px solid #000;
+  border-right: 10px solid #000;
+  margin-top: 170px;
+  margin-bottom: 57px;
+}
+.pokemon{
+  height: 300px;
+  margin-left: 2.5%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  float: left;
+  width: 30%;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  background-image:url("../../img/geral/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.imagem-padrao{
+  width: 60px;
+  height: 60px;
+}
+
+.id-pokemon{
+  position: relative;
+  margin: 0 auto;
+  width: 40%;
+  height: 20%;
+}
+.img-pokemon{
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  height: 49%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.nome-pokemon{
+  text-transform: capitalize;
+  position: relative;
+  text-align: center;
+  margin-top: 5px;
+}
+.tipo-pokemon{
+  position: relative;
+  text-transform: capitalize;
+}
+
+.text-id {
+  position: absolute;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  margin-top: 35%;
+  text-align: center;
+  width: 100%;
+}
+
+.text-nome{
+  position: relative;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  margin-top: 50%;
+  text-align: center;
+  width: 100%;
+}
+
+.text-tipo{
+  position: absolute;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  margin-top: 10%;
+  text-align: center;
+  width: 100%;
+}
+.invisivel{
+  display: none;
+}
+#filtrar-tabela{
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: #B0C4DE;
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 11px;
+  width: 175px;
+  height: 20px;
+  text-transform: capitalize;
+  padding-left:10px
+
+}

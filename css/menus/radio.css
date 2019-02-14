@@ -1,0 +1,33 @@
+
+[type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+
+}
+
+/* IMAGE STYLES */
+[type=radio] + .radio-gen {
+  cursor: pointer;
+
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + .radio-gen {
+  border: 5px solid #FFFF00;
+}
+
+.radio-gen{
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  text-align: center;
+  border: 5px solid #DC143C;
+  float: left;
+}
+
+.imagem-pokebola-gen{
+  width: 45px;
+  height: 45px;
+}

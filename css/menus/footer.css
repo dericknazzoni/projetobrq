@@ -1,0 +1,64 @@
+
+footer{
+  background-color: #000;
+  width: 100%;
+  height: 52px;
+  bottom: 0;
+  color: #fff;
+  padding-top: 5px;
+  clear: both;
+  position: fixed;
+}
+
+.imagem-rodape{
+  /*position: absolute;*/
+  height:35px;
+  width:49px;
+  margin-right: 16px;
+}
+.imagem-facebook{
+  /*position: absolute;*/
+  height:35px;
+  width:35px;
+  margin-right: 16px;
+  /*bottom:0;
+  right: 55%;
+  top: 1px;*/
+}
+
+.imagem-insta{
+  height:35px;
+  width:35px;
+}
+
+.imagem-pokebola{
+  height:35px;
+  width:35px;
+  margin-right: 16px;
+}
+
+.imagem-mail{
+  height:35px;
+  width:35px;
+  margin-right: 16px;
+}
+
+ ul li{
+  display: inline;
+}
+
+li{
+  list-style-type: none;
+}
+
+.paragrafocopy{
+  float: right;
+  font-size: 9px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.paragrafonomes{
+  float: left;
+  font-size: 9px;
+  font-family: 'Press Start 2P', cursive;
+}
